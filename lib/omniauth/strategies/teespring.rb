@@ -2,7 +2,7 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class Doorkeeper < OmniAuth::Strategies::OAuth2
+    class Teespring < OmniAuth::Strategies::OAuth2
       # change the class name and the :name option to match your application name
       option :name, :teespring
 
